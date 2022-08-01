@@ -1,0 +1,13 @@
+name: 'Actions Composite Expand'
+description: ''
+inputs:
+  main:
+    description: 'Main command/script.'
+    default: ''
+  post:
+    description: 'Post command/script.'
+    default: ''
+runs:
+  using: 'node12'
+  main:  'dist/main.js'
+  post:  'dist/post.js'
